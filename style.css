@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.roboto-slab-uniquifier {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* body */
+
+body {
+    background-image: url(./foto_racoes/adesivo_de_parede_patinhas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    background-color:#90EE90;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+
+}
+header .ancora {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 40px;
+    text-decoration: none;
+    
+}
+header .ancora a {
+    color: white;
+} 
+
+header h2 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+ul {
+    all: unset;
+    display: flex;
+    gap: 20px;
+}
+
+header li {
+    all: unset;
+}
+
+header li a img {
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+.lista {
+    font-size: 20px;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.texto p {
+    .texto {
+    color: #808000;
+}
+    
+.texto h2 {
+       margin: 0;
+        color:  #32CD32;
+    }
+}
+.texto h3 {
+       margin: 0;
+        color:  #32CD32;
+    }
+
+.apresentacao1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    color: #006400;
+}
+
+.apresentacao1 h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.apresentacao img {
+    width: 300px;
+}
+
+.apresentacao li p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #808000;
+}
+
+.promocao {
+    color: rgb(94, 32, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#div1 {
+    padding-left: 1200px;    
+} 
+
+#div1 p {
+    color: #808000;
+}
+
+#div2 {
+    
+    padding-left: 90px;
+    padding-top: 120px;
+}
+
+#div2 {
+    color: #808000
+}
+#div3 {    
+  
+  padding-top: 120px;
+ padding-right: 1100px;
+ padding-bottom: 80px;
+}
+
+#div3 {
+    color: #808000;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagens img{
+    width: 500px;
+}
+
+.lista ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contato h2 {
+    color: #006400;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.contato label {
+    align-items: center;
+    color: #808000;
+}
+
+.contato textarea {
+    width: 500px;
+    height: 80px;
+    resize: none;
+}
+
+.contato input {
+    width: 500px;
+    height: 30px;
+}
+
+.btn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #90EE90;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+    
+    
+    button:hover {
+        border: 1px solid #ffc506;
+        background-color: transparent;
+        color: #ffc506;
+    }
+
+/* rodape */
+
+footer {
+    background-color: #90EE90;
+    display: flex;
+    justify-content: center;
+    
+    padding: 20px;
+}
+
+footer p {
+    color: #E6E6FA;
+}
+
+
+/* header img {
+    display: flex;
+    justify-content: center;
+} */ 
+
+
+/* .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container img {
+    width: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+} 
+
+.menu img {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+} */

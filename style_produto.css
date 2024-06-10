@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.roboto-slab-uniquifier {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* body */
+
+body {
+    background-image: url(./foto_racoes/adesivo_de_parede_patinhas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    background-color: #90EE90;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10;
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+header .ancora {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 40px;
+    text-decoration: none;
+    
+}
+header .ancora a {
+    color: white;
+} 
+
+header h2 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+ul {
+    all: unset;
+    display: flex;
+    gap: 10px;
+}
+
+header li {
+    all: unset;
+}
+
+header li a img {
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+.imagem {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.lista ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header main .imagens {
+    width: 10px;
+    font-style: none;
+    margin: 50px;
+}
+
+.imagem {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.lista ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.lista {
+    font-size: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+     border-radius: 10px;
+     padding: 10px;
+}
+
+.cabecalho h2 {
+    color: #fff;
+}
+
+
+.texto {
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px; /* Espaçamento entre o texto e os cards de produtos */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 10px; /* Bordas arredondadas */
+    color: #32CD32;
+}
+
+.texto h2 {
+   
+    color: #32CD32;
+}
+
+
+/* cards */
+.container {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-top: 100px;
+}
+
+.card {
+    width: 250px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.51);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-content h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.card-content p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #0f0101;
+}
+
+.card-content .valor {
+    display: block;
+    color: rgb(0, 0, 0);
+    
+}
+
+.roboto-slab-<uniquifier> {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.card .card-content h2 {
+    color: red;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+.btn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #90EE90;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+
+button:hover {
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    color: #ffc506;
+}
+
+body {background-color: aquamarine;}
+
+.loja h2{
+    color: #fff;
+} 
+
+
+/* rodape */
+
+footer {
+    background-color: #90EE90;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+footer p {
+    color: #E6E6FA;
+}
+
+
