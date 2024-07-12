@@ -8,52 +8,70 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style_produto.css">
     <title>Pet Shop Melhor Amigo / Produtos</title>
-<body>
 </head>
-<header>
-    <div class="cabecalho">
-        <img src="./imagens/foto_logo.png" alt="">
-        <h2>Pet Shop Melhor Amigo</h2>
-    </div>
-    <nav>
-        <ul class="ancora">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="https://www.instagram.com/" target="_blank"><img src="/imagens/icon_instagran2.jpeg" alt="Icone Instagran"></a></li>
-            <li><a href="https://www.facebook.com/" target="_blank"><img src="./imagens/icon_faceboock.png" alt="Icone Faceboock"></a></li>
-            <li><a href="https://x.com/" target="_blank"><img src="./imagens/icon-X.jpg" alt="Icone Tik Tok"></a></li>
-        </ul>
-    </nav>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="./imagens/foto_logo.png" alt="">
+            <h2>Pet Shop Melhor Amigo</h2>
+        </div>
+        <nav>
+            <ul class="ancora">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produto_servico.html">Produtos & Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="/imagens/icon_instagran2.jpeg" alt="Icone Instagran"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="./imagens/icon_faceboock.png" alt="Icone Faceboock"></a></li>
+                <li><a href="https://x.com/" target="_blank"><img src="./imagens/icon-X.jpg" alt="Icone Tik Tok"></a></li>
+            </ul>
+        </nav>
     </header>
-<section >
-    <div class="texto">
-        <h2>QUALIDADE PREMIUM!</h2>
-    <p>No Petshop "Melhor Amigo", oferecemos uma seleção 
-        de rações premium para cães e gatos. Essas rações são formuladas com 
-        ingredientes de alta qualidade, garantindo uma nutrição balanceada e 
-        adequada para o seu pet. Temos opções para diferentes idades, raças e 
-        necessidades específicas, proporcionando uma dieta saudável e saborosa 
-        para o seu melhor amigo.</p>
-    </div>
-        <!-- <h2>Produtos</h2> -->
-    <!-- <ul class="lista">
-        <li>Ração Premium</li>
-        <li>Ração Premium</li>
-        <li>Ração Premium</li>
-        <li>Ração Premium</li>
-        <li>Ração Premium</li>
-        <li>Ração Premium</li>
-    </ul> -->
-<section>
+   <section class="servico">
+    <h4>SERVIÇOS!</h4>
+    <div>
+       <div class="apresentacao1">
+        <img src="./imagens_pet/pet_juntos.jpeg" alt="">
+        <h2>Cuidando com Amor!</h2>
+        <p>
+            Oferecemos uma variedade de serviços especializados para cuidar do seu pet com amor e dedicação. <br>
+            Nossa equipe altamente qualificada está pronta para atender às necessidades do seu animal de estimação, incluindo:
+        </p>
+       </div>
 
-    <main>
+        <div class="apresentacao1">
+            <img src="./imagens_pet/pet_banho.jpeg" alt="">
+            <h2>Banho de Carinho!</h2>
+        Limpeza Profissional: Proporcionamos banhos relaxantes e higienização completa em um ambiente <br>
+        higienizado e climatizado, para manter seu pet com pelagem brilhante e cheiroso.
+        </div>
+   
+       <div class="apresentacao1">
+        <img src="./imagens_pet/pet_tosa_pente.jpeg" alt="">
+        <h2>Tosa da Beleza e Conforto!</h2>
+        Tosa Especializada: Nossos profissionais experientes realizam cortes de acordo com o padrão da raça <br>
+        ou de acordo com suas preferências, garantindo um visual fresco e confortável para o seu amigo de quatro patas.
+       </div>
+
+        <div class="apresentacao1">
+            <img src="./imagens_pet/pet_presente.jpeg" alt="">
+            <h2>Promoções!</h2>
+            <p>
+                Além disso, regularmente temos promoções e ofertas especiais para nossos clientes,<br>
+                incluindo descontos em serviços, brindes exclusivos e pacotes de cuidados completos para seu pet. <br>
+                Certifique-se de acompanhar nossas redes sociais e site para ficar por dentro das últimas promoções e <br>
+                aproveitar ao máximo nossas ofertas. Seu pet merece o melhor, e estamos aqui para garantir isso!
+                
+            </p>
+        </div>
+
+    </div>
+    <section class="product">
+        <h4>PORDUTOS!</h4>
         <div class="container">
             <div class="card">
                 <img src="./foto_racoes/racao_seca_finotrato.webp" alt="Curso 1" class="card-img">
                 <div class="card-content">
-                    <h2>Ração Premium Fino Trato</h2>
+                    <h2 id="nomeRacao" >Ração Premium Fino Trato</h2>
                     <p>Ideal Para Cães Adultos Pedaços Pequenos 7,5kg.</p>
                     <span class="valor">R$ 549,99</span>
                     <button class="btn">Comprar</button>
@@ -81,6 +99,7 @@
             </div>
                 
             </div>
+   </section>
         <div class="container">
             <div class="card">
                 <img src="./foto_racoes/racao_KANINA_Ração.jpg" alt="Curso 1" class="card-img">
@@ -177,12 +196,12 @@
                     <button class="btn">Comprar</button>
                 </div>
             </div>
-        </main>
-</section>
-<footer>
-    <p>
+    </section>
+    <footer>
+        <p>
         - 2024 &copy; Desenvolvido por Marco Aurelio - Todos os direitos reservados. -
-    </p>
-</footer>
+        </p>
+    </footer>
+    </script>
 </body>
 </html>

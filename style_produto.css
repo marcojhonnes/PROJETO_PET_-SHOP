@@ -19,6 +19,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
+   
 }
 
 
@@ -135,9 +136,9 @@ header main .imagens {
 .texto {
     font-size: 20px;
     padding: 20px;
-    margin-bottom: 20px; /* Espaçamento entre o texto e os cards de produtos */
-    text-align: center; /* Centraliza o texto */
-    border-radius: 10px; /* Bordas arredondadas */
+    margin-bottom: 20px; 
+    text-align: center; 
+    border-radius: 10px; 
     color: #32CD32;
 }
 
@@ -195,13 +196,6 @@ header main .imagens {
     
 }
 
-.roboto-slab-<uniquifier> {
-  font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 .card .card-content h2 {
     color: red;
     font-size: 22px;
@@ -236,6 +230,77 @@ body {background-color: aquamarine;}
 } 
 
 
+.apresentacao1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    color: #006400;
+}
+
+.apresentacao1 h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.apresentacao img {
+    width: 300px;
+}
+
+.apresentacao li p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #808000;
+}
+
+.promocao {
+    color: rgb(94, 32, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#div1 {
+    padding-left: 1200px;    
+} 
+
+#div1 p {
+    color: #808000;
+}
+
+#div2 {
+    
+    padding-left: 90px;
+    padding-top: 120px;
+}
+
+#div2 {
+    color: #808000
+}
+#div3 {    
+  
+  padding-top: 120px;
+ padding-right: 1100px;
+ padding-bottom: 80px;
+}
+
+#div3 {
+    color: #808000;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #006400;
+    margin-top: 20px;
+}
+
 /* rodape */
 
 footer {
@@ -247,7 +312,7 @@ footer {
 }
 
 footer p {
-    color: #E6E6FA;
+    color: #808000;
 }
 
 
